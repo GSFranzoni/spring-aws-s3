@@ -13,7 +13,7 @@ import java.io.File;
 @Controller
 @RequestMapping("/files")
 @AllArgsConstructor
-public class FileUploadController {
+public class FileController {
 
     private final AwsS3Service awsS3Service;
 
